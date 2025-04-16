@@ -1,4 +1,4 @@
-#header, #row2 {
+#header, #row2, #row3, #row4 {
     display:flex;
 }
 .center{
@@ -22,4 +22,25 @@
 }
 .skillAnim, .list1, .blank{
     height:300px;
+}
+img{
+    border-radius: 50%;
+    height:150px;
+    width:100px;
+}
+.photoBox{
+    width:1/6;
+}
+.refBox{
+    width:4/6
+}
+.blank1{
+    width:1/6
+}
+.education{
+    align-items:center;
+
+}
+.listItems{
+    text-align:center;
 }
