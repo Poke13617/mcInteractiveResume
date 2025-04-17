@@ -14,7 +14,7 @@ if(hours > 16) {
 }
 
  var clock =document.getElementsByTagName("clock")
- clock.innerHTML = hours + ":" + minutes
+ clock[0].innerHTML = hours + ":" + minutes
 $(".list1").ready(function(){
     $(".list1").hide()
 })
@@ -26,3 +26,7 @@ $(".skillAnim").click(function(){
     }
     //I need the .list1 to disappear by default and reappear
 })
+
+$("#fontIncrease").click(function{
+    $(".textIncrease").css("font-size","40px")
+});
