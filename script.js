@@ -13,7 +13,8 @@ if(hours > 16) {
     alert("Good morning, welcome to my resume!");
 }
 
- 
+ var clock =document.getElementsByTagName("clock")
+ clock.innerHTML = hours + ":" + minutes
 $(".list1").ready(function(){
     $(".list1").hide()
 })

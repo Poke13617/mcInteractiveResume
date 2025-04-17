@@ -1,6 +1,9 @@
 #header, #row2, #row3, #row4 {
     display:flex;
 }
+ #row3{
+    background-color:lightskyblue
+}
 .center{
     align-items: center;
     text-align: center;
@@ -25,22 +28,43 @@
 }
 img{
     border-radius: 50%;
-    height:150px;
-    width:100px;
+    height:250px;
+    width:175px;
 }
 .photoBox{
-    width:1/6;
+    width:25%;
+    justify-content:center;
+    padding: 10px 100px 10px 50px;
 }
 .refBox{
-    width:4/6
+    width:50%;
 }
 .blank1{
-    width:1/6
+    width:25%;
 }
 .education{
     align-items:center;
-
+    width:80%
 }
 .listItems{
     text-align:center;
+}
+.footer{
+    padding:30px;
+    background-color:lightskyblue
+}
+#header{
+    background-color:black;
+    color:white;
+    padding:5px 0px 5px 0px;
+}
+.name{
+    width:4/6
+}
+.battery{
+width:1/6;
+}
+.clock{
+width:1/6;
+color:white;
 }
