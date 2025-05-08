@@ -25,8 +25,8 @@ $(".skillAnim").click(function(){
     $(".list1").hide("slow")
     }
     //I need the .list1 to disappear by default and reappear
-})
+});
 
-$("#fontIncrease").click(function{
+$("#fontIncrease").click(function(){
     $(".textIncrease").css("font-size","40px")
 });
